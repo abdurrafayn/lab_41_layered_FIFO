@@ -85,7 +85,7 @@ task full_write();
 endtask
 
 // ------------------------------------------------------------------------
-//                         Reading Full data in FIFO to check full flag
+//                         Reading Full data in FIFO to check full flag and empty flag (Full flag should be 0 and empty flag should be 1) 
 // ------------------------------------------------------------------------
 
 task read_full();
